@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+body{
+    width: 100%;
+    height: auto;
+    background-image: url('desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#input{
+    width: 60%;
+    height: 50vh;
+    background-color: aliceblue;
+    position: relative;
+    top: 15vh;
+    left: 15%;
+    border: 2px solid black;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+}
+#BoyName{
+    width: 85%;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+#GirlName{
+    width: 85%;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+#number{
+    width: 85%;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+marquee b{
+    color: red;
+    font-family: 'Rubik Beastly', cursive;
+}
+
+#loading{
+    width: 60%;
+    height: 50vh;
+    background-color: aliceblue;
+    position: relative;
+    top: 15vh;
+    left: 15%;
+    border: 2px solid black;
+    border-radius: 13px;
+    display: none;
+    flex-direction: column;
+    opacity: 0.8;
+}
+#calculation{
+    height: 100%;
+    width: 100%;
+}
+#loadingimg{
+    width: 100%;
+    height: 80%;
+}
+#loading b{
+    color: green;
+    text-align: center;
+}
+
+#calcu{
+    width: 35%;
+    position: relative;
+    left: 30%;
+    background-color: rgb(204, 9, 204);
+    opacity: 1;
+    border-radius: 7px;
+    padding: 5px;
+    color: blanchedalmond;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+#result{
+    width: 60%;
+    height: 50vh;
+    background-color: aliceblue;
+    position: relative;
+    top: 15vh;
+    left: 15%;
+    border: 2px solid black;
+    border-radius: 13px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0.8;
+    
+}
+#output{
+    font-family: 'Kanit', sans-serif;
+    color: green;
+}
+#retry{
+    width: 35%;
+    background-color: rgb(204, 9, 204);
+    opacity: 1;
+    border-radius: 7px;
+    padding: 5px;
+    color: blanchedalmond;
+}
+
+@media (max-width: 700px) {
+    body{
+        width: 100%;
+        height: auto;
+        background-image: url('mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+#outputborder{
+    border: 2px solid red;
+    padding: 3px;
+}
+#version{
+    position: fixed;
+    bottom: 0%;
+    left: 37%;
+    color: aliceblue;
+}
+#outputmassage{
+    padding: 1%;
+}
+.inputes{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
